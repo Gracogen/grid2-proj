@@ -20,7 +20,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](C:\Users\CELEBOBO\Downloads./screenshot.jpg)
  
 ## My process
 
@@ -65,4 +65,3 @@ I'm not so confident with mobilw responsiveness. Not used in this project.
 ## Acknowledgments
 
  My Acknowledgments go to God and FreeCodeCamp.org 
-
