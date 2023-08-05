@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{border-box:0px;}
+    
+    .container {display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 0.5<div></div>fr 0.5fr 0.5fr 0.7fr 1fr;
+    margin: 100px 15px;
+    grid-gap: 20px;
+    
+    }
+    #Dan {
+    background-color:/*Moderate violet:*/ hsl(263, 55%, 52%);
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 10px;}
+    
+    #Jon {
+    background-color: hsl(217, 19%, 35%);}
+    #Jean {
+    background-color: hsl(0, 0%, 100%); color:black;}
+    #Pat {
+    background-color: hsl(219, 29%, 14%);}
+    #Kira {
+    background-color: hsl(0, 0%, 100%); color:black;}
+    .box {color: white;
+    border-radius: 2.5%;
+    padding: 20px;
+    line-height: 16px;}
+    .head {
+    display: flex;
+<div> </div>   }
+    .fst {font-weight: 500;}
+   .sec {opacity: 50%; margin-top:-15px;}
+   .para1 {font-size: 15px;
+   font-weight:600; letter-spacing:1px;}
+   
+    .names{margin-left: 20px;
+    }
+    body{font-size:13px;
+    background-color: /*Light grayish blue:*/ hsl(210, 46%, 95%)}
+    img{border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;}
+    
+    .quote-text {opacity: 70%; margin-top: 15px; font-size: 10px;}
+    
+    @media only screen and (min-width: 768px) {
+        .container {
+        height: 100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        grid-template-rows:1fr 0.8fr;
+        grid-template-areas: 
+        "dan dan jon kira"
+        "jean pat pat kira";
+        font-family: "inter sans-serif"
+        text-transform: "uppercase";
+        }
+        
+        #Dan {
+    grid-area: dan;}
+    
+    #Jon {
+    
+    grid-area: jon;}
+    #Jean {
+    
+    grid-area: jean;}
+    #Pat {
+    grid-area: pat}
+    #Kira {
+    
+    grid-area: kira;}
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+           
+    <div id="Dan" class="box">
+        <div class="head">
+            <img src="./images/image-daniel.jpg">
+            <div class="names">
+  <p class="fst">Daniel Clifford</p>
+  <p class="sec">Verified Graduate</p></div>
+  </div>
+<p class="para">
+   <div class="para1">
+  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+  in the company I joined. I honestly feel I got every penny’s worth.</div>
+  <div class="quote-text">
+
+  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+  transition and have heard some people who had an amazing experience here. I signed up 
+  for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+  The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+  the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</div>
+  </p>
+
+</div>
+<div id="Jon" class="box">
+        <div class="head">
+            <img src="./images/image-jonathan.jpg">
+            <div class="names">
+  <p class="fst">Jonathan Walters</p>
+  <p class="sec">Verified Graduate</p>
+  </div>
+</div>
+<p class="para">
+    <div class="para1">
+  The team was very supportive and kept me motivated</div>
+<div class="quote-text">
+  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+  for a big company. This was one of the best investments I’ve made in myself. ”</div    >
+  </p>
+</div>
+<div id="Jean" class="box">
+        <div class="head">
+            <img src="./images/image-jeanette.jpg">
+            <div class="names">
+  <p class="fst">Jeanette Harmon</p>
+  <p class="sec">Verified Graduate</p>
+  </div>
+</div>
+<p class="para">
+    <div class="para1">
+  An overall wonderful and rewarding experience</div>
+<div class="quote-text">
+  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+  while doing something I love. ”</div>
+  </p>
+</div>
+<div id="Pat" class="box">
+        <div class="head">
+            <img src="./images/image-patrick.jpg">
+            <div class="names">
+  <p class="fst">Patrick Abrams</p>
+  <p class="sec">Verified Graduate</p>
+  </div>
+</div>
+<p class="para">
+    <div class="para1">
+  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.</div>
+<div class="quote-text">
+  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+  junior developer. The standard is above the rest. You will get the personal attention you need from 
+  an incredible community of smart and amazing people. ”</div>
+  </p>
+</div>
+<div id="Kira" class="box">
+        <div class="head">
+            <img src="./images/image-kira.jpg">
+            <div class="names">
+ <p class="fst"> Kira Whittle</p>
+  <p class="sec">Verified Graduate</p>
+  </div>
+</div>
+<p class="para">
+    <div class="para1">
+  Such a life-changing experience. Highly recommended!</div>
+<div class="quote-text">
+  “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+  professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+  student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+  did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+  project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+  could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+  experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+  100% recommend! ”</div>
+  </p>
+  </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Grace</a>.
+  </div>
+</body>
+</html>
